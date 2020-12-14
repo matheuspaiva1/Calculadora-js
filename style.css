@@ -1,0 +1,41 @@
+body {
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+    color: #353535;
+}
+.titulo {
+    display: flex;
+}
+
+img {
+    margin-left: 5px;
+    width: 50px;
+    height: 55px;
+}
+#num1, #num2 {
+    font-size: 20px;
+}
+
+#enviar {
+    width: 610px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #09cf02;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    background-color: #099c04;
+}
+
+#res {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
